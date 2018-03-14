@@ -1,0 +1,25 @@
+{
+ 
+  "name": "Better Live.me Cx",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "An extension to enhance the user experience of the livestreaming platform Live.me. Specifically made for the Purple Army, but can be used on any stream. Cx",
+  "icons": { 
+    "16": "img/cx16.png",
+    "48": "img/cx48.png",
+   "128": "img/cx128.png" 
+  },
+
+  "permissions": [
+    "tabs", "http://www.liveme.com/*"
+  ],
+  "web_accessible_resources": [
+    "img/*"
+  ],
+  "content_scripts": [{
+    "css": ["main.css"],
+    "matches": ["http://www.liveme.com/live.html?videoid=*"],
+    "js": ["jquery-3.3.1.min.js", "load.js"]
+  }]
+ 
+}

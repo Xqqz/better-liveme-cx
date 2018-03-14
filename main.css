@@ -1,0 +1,41 @@
+:root {
+  --main-bg-color: rgb(32,32,32);
+  --second-bg-color: rgb(35,35,35);
+  --main-text-color: rgb(255,255,255);
+}
+
+.header .top .logo {
+  background: url(chrome-extension://nddkomoeoflpgfffmfldcdcjfadcnkbn/img/cxlogo.png) no-repeat 50% transparent !important;
+}
+
+.header, .top, .top.topbar-scroll-bg, 
+.live_self, .main .audience, 
+.scroll_w, .messaging p, 
+.live_message, .messaging, 
+.messaging em, .say, .live_gifts, 
+.list, .live_video, .card, .top_fans {
+  background: var(--second-bg-color) !important;
+  color: var(--main-text-color) !important;
+}
+
+.messaging {
+  max-height: 660px !important;
+}
+
+.main .live_room {
+  padding: 0 !important;
+}
+
+body {
+  background: var(--main-bg-color) !important;
+}
+
+.crumb {
+  position: absolute;
+  color: var(--main-text-color) !important;
+  height: 0px !important; 
+}
+
+.nickname {
+  color: var(--main-text-color) !important;
+}

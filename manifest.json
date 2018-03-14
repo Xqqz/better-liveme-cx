@@ -3,7 +3,7 @@
   "name": "Better Live.me Cx",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "An extension to enhance the user experience of the livestreaming platform Live.me. Specifically made for the Purple Army, but can be used on any stream. Cx",
+  "description": "An extension to enhance the user experience of the livestreaming platform Live.me. Cx",
   "icons": { 
     "16": "img/cx16.png",
     "48": "img/cx48.png",

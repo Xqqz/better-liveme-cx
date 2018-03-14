@@ -1,9 +1,11 @@
 {
- 
   "name": "Better Live.me Cx",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "manifest_version": 2,
   "description": "An extension to enhance the user experience of the livestreaming platform Live.me. Cx",
+  "browser_action": {
+    "default_icon": "img/cx128.png"
+  },
   "icons": { 
     "16": "img/cx16.png",
     "48": "img/cx48.png",
@@ -11,14 +13,14 @@
   },
 
   "permissions": [
-    "tabs", "http://www.liveme.com/*"
+    "tabs", "*://www.liveme.com/*"
   ],
   "web_accessible_resources": [
     "img/*"
   ],
   "content_scripts": [{
     "css": ["main.css"],
-    "matches": ["http://www.liveme.com/live.html?videoid=*"],
+    "matches": ["*://www.liveme.com/live.html*"],
     "js": ["jquery-3.3.1.min.js", "load.js"]
   }]
  

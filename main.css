@@ -36,6 +36,62 @@ body {
   height: 0px !important; 
 }
 
-.nickname {
+.nickname, .icono-volumeHigh {
   color: var(--main-text-color) !important;
+}
+
+.volume {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 33px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.volume:hover + .slidecontainer {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slidecontainer {
+  opacity: 0;
+  visibility: hidden;
+  left: 30px;
+  bottom: 7px;
+  width: 206px;
+  position: absolute;
+}
+
+.volume-slider {
+  border-radius: 16px;
+  margin-left: 20px;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+}
+
+.slidecontainer:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  border-radius: 50%;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #ff42ff;
+  cursor: pointer;
+}
+
+.volume-slider::-moz-range-thumb {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: #ff42ff;
+  cursor: pointer;
 }

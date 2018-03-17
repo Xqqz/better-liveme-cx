@@ -9,6 +9,7 @@ Create an issue, or contact me on Discord: *** Noah#0613 ***
 
 - Make dark theme for whole website
 - Hide animated graphics from whole site
-- Volume slider
+- Add volume slider
 - Toggle TriHard mode (Dark theme)
 - Toggle gifts and hearts
+- Add twitch and Better Twitch.tv emotes

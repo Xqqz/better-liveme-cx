@@ -95,3 +95,17 @@ body {
   background: #ff42ff;
   cursor: pointer;
 }
+
+.fullscreen {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 33px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.fullscreen svg {
+  height: 30px;
+  width: 30px;
+}
